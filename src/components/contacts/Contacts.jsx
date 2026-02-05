@@ -59,7 +59,7 @@ const Contacts = () => {
         <Fade direction="up" cascade triggerOnce={true} delay={200}>
           <div className="socials-container">
             {socialData.map((item) => {
-              const { icon, href, color, qrImage, ariaLabel } = item;
+              const { icon, href, color} = item;
               return (
                 <div className="socials-icon">
                   {/* <img src={qrImage} className="social-qr" alt={ariaLabel} /> */}
